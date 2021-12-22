@@ -1,0 +1,28 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open:cypress": "cypress open",
+    "cypress:chrome": "cypress run -b chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickBarbosa88/npm-install-Cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickBarbosa88/npm-install-Cypress/issues"
+  },
+  "homepage": "https://github.com/ErickBarbosa88/npm-install-Cypress#readme",
+  "dependencies": {
+    "cypress": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
+  }
+}
