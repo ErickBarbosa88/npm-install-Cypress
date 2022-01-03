@@ -1,0 +1,65 @@
+nometeste.skip = skipa e nao roda, pula para o próximo
+
+nomteste.only = apenas ele é executado
+
+to.be.deep.equal : deep compara as proriedades do objeto(os valores)
+ou .eql ou .include({valor dentro do obj})
+
+https://wcaquino.me/cypress/componentes.html campo de treinamento
+
+
+códigos cy. {
+
+cy.reload() // atualiza a pagina
+
+ cy.visit('link da pág') entra na página indicada pelo link
+
+ cy.get('#id ou .classe') // chama e acessa o parametro indicado no ()
+
+ cy.get('id').click() // comando que vai interagir com o parametro chamado pelo .get
+
+ cy.get() .should('contain', '.') // pergunta se contém o '.' valor indicado 
+
+
+## logo após o describe o before roda antes de todos os testes.
+
+ before(() => {
+    cy.visit('https://wcaquino.me/cypress/componentes.html')
+    // roda em todos os testes de uma vez
+  })
+  // nesse caso ele ira entrar na página antes de qualquer teste
+
+
+(beforeEach()=> {
+  // roda antes de cada teste, 1 por vez
+})
+
+}
+
+
+cy.get().type('texto que será inserido na caixa de texto!!')
+ 
+: / sao caracteres especiais 
+
+cy.get().clear()
+
+cy.get().type('Error{selectall}acerto', { delay: 100 })
+// dentro do .type da para selecionar todo o texto e sobrescrever,  por um
+delay na escrita no texto
+
+cy.get().click({ multiple: true })
+// clica todos os checkbox
+
+para ter acesso ao valor do 'Combo' tem que especionar o elemento
+e pegar seu valor(nao o que mostra na caixa)
+
+should vs then 
+
+https://wcaquino.me/
+
+cypress@gmail.com
+12345
+
+
+
+

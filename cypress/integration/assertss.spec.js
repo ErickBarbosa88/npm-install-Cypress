@@ -89,3 +89,4 @@ it('Numbers', () => {
   expect(floatNumber).to.be.closeTo(5.2, 0.1) // próximo de
   expect(floatNumber).to.be.above(5.2)
 })
+

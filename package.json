@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/ErickBarbosa88/npm-install-Cypress#readme",
   "dependencies": {
-    "cypress": "^3.6.0"
+    "cypress": "^9.2.0",
+    "cypress-xpath": "^1.6.2"
   },
   "devDependencies": {
     "chai": "^4.3.4"
